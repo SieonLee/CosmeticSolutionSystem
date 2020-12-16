@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.XtraCharts;
 
 namespace CosmeticSolutionSystem
 {
@@ -15,6 +16,11 @@ namespace CosmeticSolutionSystem
         public ChildFormIncomeStatement()
         {
             InitializeComponent();
+        }
+
+        private void ChildFormIncomeStatement_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
