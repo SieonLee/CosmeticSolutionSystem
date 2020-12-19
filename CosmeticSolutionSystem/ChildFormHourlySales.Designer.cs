@@ -30,12 +30,13 @@ namespace CosmeticSolutionSystem
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.dateEditSearch = new DevExpress.XtraEditors.DateEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.ButtonBack = new DevExpress.XtraEditors.SimpleButton();
             this.chartControl2 = new DevExpress.XtraCharts.ChartControl();
+            this.hourlySalesModelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -43,27 +44,26 @@ namespace CosmeticSolutionSystem
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.hourlySalesModelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateEditSearch.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEditSearch.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hourlySalesModelBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hourlySalesModelBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
             // 
             this.layoutControl1.Controls.Add(this.dateEditSearch);
-            this.layoutControl1.Controls.Add(this.simpleButton1);
+            this.layoutControl1.Controls.Add(this.ButtonBack);
             this.layoutControl1.Controls.Add(this.chartControl2);
             this.layoutControl1.Controls.Add(this.labelControl2);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -92,6 +92,7 @@ namespace CosmeticSolutionSystem
             this.dateEditSearch.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.dateEditSearch.Properties.MaskSettings.Set("mask", "yyyy");
             this.dateEditSearch.Properties.MaxValue = new System.DateTime(2021, 12, 31, 23, 59, 0, 0);
+            this.dateEditSearch.Properties.MinValue = new System.DateTime(2018, 1, 1, 0, 0, 0, 0);
             this.dateEditSearch.Properties.UseAdvancedMode = DevExpress.Utils.DefaultBoolean.True;
             this.dateEditSearch.Properties.UseMaskAsDisplayFormat = true;
             this.dateEditSearch.Properties.VistaCalendarInitialViewStyle = DevExpress.XtraEditors.VistaCalendarInitialViewStyle.YearView;
@@ -102,38 +103,43 @@ namespace CosmeticSolutionSystem
             this.dateEditSearch.TabIndex = 14;
             this.dateEditSearch.SelectionChanged += new System.EventHandler(this.dateEditSearch_SelectionChanged);
             // 
-            // simpleButton1
+            // ButtonBack
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Location = new System.Drawing.Point(12, 521);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(105, 29);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 13;
-            this.simpleButton1.Text = "뒤로가기";
+            this.ButtonBack.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonBack.Appearance.Options.UseFont = true;
+            this.ButtonBack.Location = new System.Drawing.Point(12, 521);
+            this.ButtonBack.Name = "ButtonBack";
+            this.ButtonBack.Size = new System.Drawing.Size(105, 29);
+            this.ButtonBack.StyleController = this.layoutControl1;
+            this.ButtonBack.TabIndex = 13;
+            this.ButtonBack.Text = "뒤로가기";
+            this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
             // 
             // chartControl2
             // 
             this.chartControl2.DataSource = this.hourlySalesModelBindingSource;
-            xyDiagram1.AxisX.Label.TextPattern = "{A}시";
-            xyDiagram1.AxisX.NumericScaleOptions.AutoGrid = false;
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.Label.TextPattern = "{V}명";
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl2.Diagram = xyDiagram1;
+            xyDiagram3.AxisX.Label.TextPattern = "{A}시";
+            xyDiagram3.AxisX.NumericScaleOptions.AutoGrid = false;
+            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram3.AxisY.Label.TextPattern = "{V}명";
+            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl2.Diagram = xyDiagram3;
             this.chartControl2.Legend.Name = "Default Legend";
             this.chartControl2.Location = new System.Drawing.Point(12, 53);
             this.chartControl2.Name = "chartControl2";
-            series1.ArgumentDataMember = "Hour";
-            series1.Name = "방문자 수";
-            series1.ValueDataMembersSerializable = "CustomerCount";
+            series3.ArgumentDataMember = "Hour";
+            series3.Name = "방문자 수";
+            series3.ValueDataMembersSerializable = "CustomerCount";
             this.chartControl2.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
+        series3};
             this.chartControl2.SeriesTemplate.ArgumentDataMember = "CustomerId";
             this.chartControl2.SeriesTemplate.ValueDataMembersSerializable = "CustomerId";
             this.chartControl2.Size = new System.Drawing.Size(890, 464);
             this.chartControl2.TabIndex = 12;
+            // 
+            // hourlySalesModelBindingSource
+            // 
+            this.hourlySalesModelBindingSource.DataSource = typeof(CosmeticSolutionSystem.Data.Models.HourlySales);
             // 
             // labelControl2
             // 
@@ -194,7 +200,7 @@ namespace CosmeticSolutionSystem
             // 
             // layoutControlItem4
             // 
-            this.layoutControlItem4.Control = this.simpleButton1;
+            this.layoutControlItem4.Control = this.ButtonBack;
             this.layoutControlItem4.Location = new System.Drawing.Point(0, 509);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(109, 33);
@@ -210,10 +216,6 @@ namespace CosmeticSolutionSystem
             this.layoutControlItem3.Text = "조회";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(26, 18);
             // 
-            // hourlySalesModelBindingSource
-            // 
-            this.hourlySalesModelBindingSource.DataSource = typeof(CosmeticSolutionSystem.Data.Models.HourlySales);
-            // 
             // ChildFormHourlySales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -223,21 +225,20 @@ namespace CosmeticSolutionSystem
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ChildFormHourlySales";
             this.Text = "시간대별 구매자 수 분석";
-            this.Load += new System.EventHandler(this.ChildFormHourlySales_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateEditSearch.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEditSearch.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hourlySalesModelBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hourlySalesModelBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,7 +251,7 @@ namespace CosmeticSolutionSystem
         private DevExpress.XtraCharts.ChartControl chartControl2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton ButtonBack;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
         private DevExpress.XtraEditors.DateEdit dateEditSearch;

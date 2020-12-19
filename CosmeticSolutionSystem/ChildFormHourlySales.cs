@@ -18,16 +18,6 @@ namespace CosmeticSolutionSystem
         {
             InitializeComponent();
         }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ChildFormHourlySales_Load(object sender, EventArgs e)
-        {
-            
-        }
    
         private void dateEditSearch_SelectionChanged(object sender, EventArgs e)
         {
@@ -36,6 +26,11 @@ namespace CosmeticSolutionSystem
 
             List<HourlySales> dataSource = Dao.Sales.SearchDate(startDate, endDate);
             hourlySalesModelBindingSource.DataSource = dataSource;
+        }
+
+        private void ButtonBack_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

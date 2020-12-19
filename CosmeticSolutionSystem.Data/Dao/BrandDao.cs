@@ -35,6 +35,36 @@ namespace CosmeticSolutionSystem.Data
             }
         }
 
-    }
+/*        public List<YearlyBrandSaleModel> GetBrand(DateTime startDate, DateTime endDate)
+        {
+            using (var context = DbContextCreator.Create())
+            {
+                var query = from x in context.Brands
+                            from p in context.Products
+                            where x.BrandId == p.ProductId
+                            select new
+                            {
+                                brandName = x.BrandName
+                            };
 
+
+                var query2 = from x in context.SalesLines
+                             from p in context.Sales
+                             where x.SalesId == p.SalesId
+                             select new
+                             {
+                                 selledAt = p.SelledAt,
+                                 totalPrice = p.TotalPrice
+                             };
+
+                var Datequery = from x in context.Sales
+                                where x.SelledAt >= startDate && x.SelledAt <= endDate
+                                select x;
+
+                var groupDate = from x in Datequery
+                                where x.SelledAt.Year >= 2018 && x.SelledAt.Year <= 2020
+                                select x;
+            }
+        }
+*/    }
 }
