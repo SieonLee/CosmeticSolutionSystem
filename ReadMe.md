@@ -1,0 +1,24 @@
+화장품 판매점의 연간 판매량을 재무 상태를 차트 형태로 출력하는 매출 관리 시스템을 구현하였습니다.
+## 개발기간
+2020년 12월 14일 ~ 12월 18일
+
+# 개발 환경
+
+
+
+
+
+### C# Cosmetic Solution Client project
+Microsoft Visual Studio Community 2019 v16.8.2
+
+#### 언어
+- C# 8.0
+
+#### 프레임워크
+
+- .Net FrameWork 4.8
+- EntityFrameWork 6.2
+- Winform
+
+#### 데이터베이스
+Microsoft MS-SQL Server 2019
