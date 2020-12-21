@@ -25,7 +25,7 @@ Microsoft MS-SQL Server 2019
 
 ## 화면 목록
 1. 손익 계산서 화면
-<img src="./Document/1. 원자재 재고 관리 시스템 로그인 전 화면.jpg" width="100%">
+<img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/1.%20%EC%86%90%EC%9D%B5%20%EA%B3%84%EC%82%B0%EC%84%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 2. 재무 상태표
 
 3. 일/월별 판매량
