@@ -28,7 +28,7 @@ Microsoft MS-SQL Server 2019
 
 ## 화면 목록
 1. 손익 계산서 화면
-<img src="https://raw.githubusercontent.com/SieonLee/CosmeticSolutionSystem/master/Document/1.%20%EC%86%90%EC%9D%B5%20%EA%B3%84%EC%82%B0%EC%84%9C%20%ED%99%94%EB%A9%B4.jpg?token=ARYTE5HHGGHOO7F6LRABPLS7374IA" width="80%">
+<img src="../Document/1.%20%EC%86%90%EC%9D%B5%20%EA%B3%84%EC%82%B0%EC%84%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 
 - 손익 계산서 버튼을 누르면 DB에 저장되어있는 손익계산서 내역 중 매출액, 영업이익, 당기순이익이 연도별로 차트로 표시되며 전체 내역은 표로 표시된다.
 
