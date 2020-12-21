@@ -47,7 +47,7 @@ Microsoft MS-SQL Server 2019
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/6.%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%B3%84%20%EC%97%B0%EB%A0%B9%EB%8C%80%EB%B3%84%20%EB%B9%84%EC%A4%91%20%EB%82%A8%EC%9E%90%20-%20%EC%97%AC%EC%9E%90%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 7. 비건 화장품 매출 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/7.%20%EB%B9%84%EA%B1%B4%20%ED%99%94%EC%9E%A5%ED%92%88%20%EB%A7%A4%EC%B6%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
-- Brand 테이블에서 BrandTag=0인 브랜드들의 매출을 Sales 테이블에서 최근 3년만 연도별로 그룹화하여 SalesLine 테이블에서 각 연도별 수량을 더해 그래프를 그렸다. 
+- Brand 테이블에서 BrandTag=0인 브랜드들의 매출을 Sales 테이블에서 최근 3년만 연도별로 그룹화하여 SalesLine 테이블에서 각 연도별 수량을 더해 차트 구현. 
 
 
 
