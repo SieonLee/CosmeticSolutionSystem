@@ -20,6 +20,9 @@ Microsoft Visual Studio Community 2019 v16.8.2
 - EntityFrameWork 6.2
 - Winform
 
+####라이브러리
+DevExpress Chart Control v.20.2.2
+
 #### 데이터베이스
 Microsoft MS-SQL Server 2019
 
