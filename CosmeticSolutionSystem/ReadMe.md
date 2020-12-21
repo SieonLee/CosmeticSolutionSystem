@@ -22,3 +22,23 @@ Microsoft Visual Studio Community 2019 v16.8.2
 
 #### 데이터베이스
 Microsoft MS-SQL Server 2019
+
+## 화면 목록
+1. 손익 계산서 화면
+<img src="./Document/1. 손익 계산서 화면.jpg" width="100%">
+2. 재무 상태표
+<img src="./Document/2. 재무 상태표 화면.jpg" width="100%">
+3. 일/월별 판매량
+<img src="./Document/3. 일별 월별 판매량 화면.jpg" width="100%">
+4. 시간대별 고객 구매자 수 분석
+<img src="./Document/4. 시간대별 구매자수 분석 화면.jpg" width="100%">
+5. 코로나 확진자 수에 따른 카테고리별 판매량
+<img src="./Document/5. 코로나 확진자 수에 따른 카테고리별 판매량.jpg" width="100%">
+6. 카테고리, 연령, 성별 매출 비중
+<img src="./Document/6. 카테고리별 연령대별 비중 남자 - 여자 화면.jpg" width="100%">
+7. 비건 화장품 매출
+<img src="./Document/7. 비건 화장품 매출 화면.jpg" width="100%">
+8. 브랜드별 최근 1년, 월 매출
+<img src="./Document/8. 브랜드별 최근 1년 월 매출 화면.jpg" width="100%">
+9. Top 5 제품
+<img src="./Document/9. Top 5 제품 화면.jpg" width="100%">
