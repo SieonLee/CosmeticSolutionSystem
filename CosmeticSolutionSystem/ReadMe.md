@@ -75,3 +75,14 @@ Microsoft MS-SQL Server 2019
 <img src="../Document/9.%20Top%205%20%EC%A0%9C%ED%92%88%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 
 - 년, 월 기간동안 판매된 제품 중 상위 5개 제품을 데이터를 Doughnut 차트 형태로 출력한다.
+
+## DB 스키마
+<img src="../Document/DB 스키마.jpg" width="80%">
+
+
+## 클래스 다이어그램
+
+<img src="../Document/클래스 다이어그램.jpg" width="80%">
+
+
+- 모든 항목이 제 3 정규화까지 완료되었다.
