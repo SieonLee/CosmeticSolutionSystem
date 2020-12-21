@@ -54,9 +54,16 @@ Microsoft MS-SQL Server 2019
 5. 코로나 확진자 수에 따른 카테고리별 판매량 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/5.%20%EC%BD%94%EB%A1%9C%EB%82%98%20%ED%99%95%EC%A7%84%EC%9E%90%20%EC%88%98%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%B3%84%20%ED%8C%90%EB%A7%A4%EB%9F%89.jpg" width="80%">
 
+- 코로나 확진자수 Bar형태 차트, 카테고리별 판매량 Line차트로 출력
+- 5개월간의 차트를 볼 수 있다
 
-6. 카테고리, 연령, 성별 매출 비중 화면
+
+6. 카테고리, 연령 매출 비중 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/6.%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%B3%84%20%EC%97%B0%EB%A0%B9%EB%8C%80%EB%B3%84%20%EB%B9%84%EC%A4%91%20%EB%82%A8%EC%9E%90%20-%20%EC%97%AC%EC%9E%90%20%ED%99%94%EB%A9%B4.jpg" width="80%">
+
+- 최근 3년간 카테고리별 연령대의 매출을 Manhattan Bar로 출력
+- 버튼을 통하여 한해의 매출 출력 가능
+- 마우스를 이용하여 scroll, zoom이 가능
 
 
 7. 비건 화장품 매출 화면
