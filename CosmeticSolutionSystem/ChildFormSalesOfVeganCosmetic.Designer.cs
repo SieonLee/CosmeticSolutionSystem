@@ -84,7 +84,7 @@ namespace CosmeticSolutionSystem
             this.labelControl2.ShowLineShadow = false;
             this.labelControl2.Size = new System.Drawing.Size(887, 37);
             this.labelControl2.TabIndex = 17;
-            this.labelControl2.Text = "카테고리별 연령대별 판매량";
+            this.labelControl2.Text = "비건 브랜드 최근 3년 연도별 판매량";
             // 
             // ChildFormSalesOfVeganCosmetic
             // 

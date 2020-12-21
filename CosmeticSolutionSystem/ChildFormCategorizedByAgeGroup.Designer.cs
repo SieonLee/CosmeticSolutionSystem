@@ -49,9 +49,9 @@ namespace CosmeticSolutionSystem
             this.CategoryAgeChart.DataSource = this.categorizedByAgeModelBindingSource;
             xyDiagram3D1.AxisY.Interlaced = false;
             xyDiagram3D1.AxisY.MinorCount = 2;
-            xyDiagram3D1.RotationMatrixSerializable = "0.0154863763313246;-0.0149428852598034;-0.999768414348171;0;0.00271903683913421;0" +
-    ".999885254377139;-0.0149025138097526;0;0.999876381852682;-0.00248762121207529;0." +
-    "0155252295929321;0;0;0;0;1";
+            xyDiagram3D1.RotationMatrixSerializable = "0.998074116832991;-0.0553765464427024;0.0279552394404704;0;0.0550465623949169;0.9" +
+    "9840629991687;0.0124393028281886;0;-0.0285995328038339;-0.0108765063521368;0.999" +
+    "531774548976;0;0;0;0;1";
             xyDiagram3D1.RuntimeRotation = true;
             xyDiagram3D1.RuntimeScrolling = true;
             xyDiagram3D1.RuntimeZooming = true;
