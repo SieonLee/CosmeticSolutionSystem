@@ -29,13 +29,12 @@ Microsoft MS-SQL Server 2019
 ## 화면 목록
 1. 손익 계산서 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/1.%20%EC%86%90%EC%9D%B5%20%EA%B3%84%EC%82%B0%EC%84%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
-
-- 손익 계산서 버튼을 누르면 DB에 저장되어있는 손익계산서 내역 중 매출액, 영업이익, 당기순이익이 차트로 표시되며 전체 내역은 표로 표시된다.
+- 손익 계산서 버튼을 누르면 DB에 저장되어있는 손익계산서 내역 중 매출액, 영업이익, 당기순이익이 연도별로 차트로 표시되며 전체 내역은 표로 표시된다.
 
 2. 재무 상태표 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/2.%20%EC%9E%AC%EB%AC%B4%20%EC%83%81%ED%83%9C%ED%91%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 
-- 재무 상태표 버튼을 누르면 DB에 저장되어있는 재무상태표 내역(자산, 부채, 자본)이 각각 차트 및 표로 표시된다.
+- 재무 상태표 버튼을 누르면 DB에 저장되어있는 재무상태표 내역(자산, 부채, 자본)이 연도별로 각각 차트 및 표로 표시된다.
 
 3. 일/월별 판매량 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/3.%20%EC%9D%BC%EB%B3%84%20%EC%9B%94%EB%B3%84%20%ED%8C%90%EB%A7%A4%EB%9F%89%20%ED%99%94%EB%A9%B4.jpg" width="80%">
