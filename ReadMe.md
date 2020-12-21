@@ -39,6 +39,8 @@ Microsoft MS-SQL Server 2019
 
 3. 일/월별 판매량 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/3.%20%EC%9D%BC%EB%B3%84%20%EC%9B%94%EB%B3%84%20%ED%8C%90%EB%A7%A4%EB%9F%89%20%ED%99%94%EB%A9%B4.jpg" width="80%">
+
+- 일별, 월별 제품 판매량을 모두 합산한 데이터, 카테고리별로 구분하여 합산한 데이터를 Stakced Bar 차트 형태로 출력한다
 4. 시간대별 고객 구매자 수 분석 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/4.%20%EC%8B%9C%EA%B0%84%EB%8C%80%EB%B3%84%20%EA%B5%AC%EB%A7%A4%EC%9E%90%EC%88%98%20%EB%B6%84%EC%84%9D%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 5. 코로나 확진자 수에 따른 카테고리별 판매량 화면
@@ -56,3 +58,4 @@ Microsoft MS-SQL Server 2019
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/8.%20%EB%B8%8C%EB%9E%9C%EB%93%9C%EB%B3%84%20%EC%B5%9C%EA%B7%BC%201%EB%85%84%20%EC%9B%94%20%EB%A7%A4%EC%B6%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 9. Top 5 제품 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/9.%20Top%205%20%EC%A0%9C%ED%92%88%20%ED%99%94%EB%A9%B4.jpg" width="80%">
+년, 월 기간동안 판매된 제품 중 상위 5개 제품을 데이터를 Doughnut 차트 형태로 출력한다.
