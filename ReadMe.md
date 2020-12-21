@@ -33,15 +33,19 @@ Microsoft MS-SQL Server 2019
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/2.%20%EC%9E%AC%EB%AC%B4%20%EC%83%81%ED%83%9C%ED%91%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 3. 일/월별 판매량 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/3.%20%EC%9D%BC%EB%B3%84%20%EC%9B%94%EB%B3%84%20%ED%8C%90%EB%A7%A4%EB%9F%89%20%ED%99%94%EB%A9%B4.jpg" width="80%">
-4. 시간대별 고객 구매자 수 분석 화면
+4. 시간대별 고객 구매자 수 분석 화면 
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/4.%20%EC%8B%9C%EA%B0%84%EB%8C%80%EB%B3%84%20%EA%B5%AC%EB%A7%A4%EC%9E%90%EC%88%98%20%EB%B6%84%EC%84%9D%20%ED%99%94%EB%A9%B4.jpg" width="80%">
+- 12시부터 24시까지 나누어서 방문한 고객에 수를 보여준다. 
+- DateEdit 버튼을 눌러서 해당 년도(2018년부터 2020년까지)를 선택하면, 방문한 고객수를 볼수가 있다.
 5. 코로나 확진자 수에 따른 카테고리별 판매량 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/5.%20%EC%BD%94%EB%A1%9C%EB%82%98%20%ED%99%95%EC%A7%84%EC%9E%90%20%EC%88%98%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%B3%84%20%ED%8C%90%EB%A7%A4%EB%9F%89.jpg" width="80%">
 6. 카테고리, 연령, 성별 매출 비중 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/6.%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%B3%84%20%EC%97%B0%EB%A0%B9%EB%8C%80%EB%B3%84%20%EB%B9%84%EC%A4%91%20%EB%82%A8%EC%9E%90%20-%20%EC%97%AC%EC%9E%90%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 7. 비건 화장품 매출 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/7.%20%EB%B9%84%EA%B1%B4%20%ED%99%94%EC%9E%A5%ED%92%88%20%EB%A7%A4%EC%B6%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
-8. 브랜드별 최근 1년, 월 매출 화면
+8. 브랜드별 년도 매출
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/8.%20%EB%B8%8C%EB%9E%9C%EB%93%9C%EB%B3%84%20%EC%B5%9C%EA%B7%BC%201%EB%85%84%20%EC%9B%94%20%EB%A7%A4%EC%B6%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
+- 브랜드별로 나누어 해당 년도에 매출을 보여준다.
+- DateEdit 버튼을 눌러서 해당 년도(2018년부터 2020년까지)를 선택하면, 브랜드별로 나누어 해당년도 매출을 볼수가 있다. 
 9. Top 5 제품 화면
 <img src="https://github.com/SieonLee/CosmeticSolutionSystem/blob/master/Document/9.%20Top%205%20%EC%A0%9C%ED%92%88%20%ED%99%94%EB%A9%B4.jpg" width="80%">
