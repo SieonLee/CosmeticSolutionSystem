@@ -41,7 +41,7 @@ Microsoft MS-SQL Server 2019
 3. 일/월별 판매량 화면
 <img src="./Document/3.%20%EC%9D%BC%EB%B3%84%20%EC%9B%94%EB%B3%84%20%ED%8C%90%EB%A7%A4%EB%9F%89%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 
-- 일별, 월별 제품 판매량을 모두 합산한 데이터, 카테고리별로 구분하여 합산한 데이터를 Stakced Bar 차트 형태로 출력한다
+- 일별, 월별 제품 판매량을 모두 합산한 데이터, 카테고리별로 구분하여 합산한 데이터를 Stakced Bar 차트로 출력한다.
 
 
 4. 시간대별 고객 구매자 수 분석 화면
@@ -74,7 +74,7 @@ Microsoft MS-SQL Server 2019
 9. Top 5 제품 화면
 <img src="./Document/9.%20Top%205%20%EC%A0%9C%ED%92%88%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 
-- 년, 월 기간동안 판매된 제품 중 상위 5개 제품을 데이터를 Doughnut 차트 형태로 출력한다.
+- 년, 월 기간동안 판매된 제품 중 상위 5개 제품의 판매량을 Doughnut 차트로 출력한다.
 
 ## DB 스키마
 <img src="./Document/DB 스키마.jpg" width="80%">
