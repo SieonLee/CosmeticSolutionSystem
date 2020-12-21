@@ -85,10 +85,10 @@ Microsoft MS-SQL Server 2019
 ## 클래스 다이어그램
 
 <img src="./Document/Model Classes.jpg" width="80%">
-<Dao Classes>
+Dao Classes
  
 
 <img src="./Document/Form Classes.jpg" width="80%">
-<Form Classes>
+Form Classes
   
 
