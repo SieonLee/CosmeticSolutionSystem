@@ -1,7 +1,10 @@
 화장품 판매점의 재무 현황과 매출 현황을 차트로 출력하는 매출 관리 시스템을 구현하였습니다.
-## 개발기간
+# 개발기간
 2020년 12월 14일 ~ 12월 18일
 
+#참여 인원
+IoT기반 스마트팩토리 SW개발 전문가과정
+김민경, 김창준, 이시언, 정상훈, 최보화 총 5명
 # 개발 환경
 
 
@@ -26,7 +29,7 @@ DevExpress Chart Control v.20.2.2
 #### 데이터베이스
 Microsoft MS-SQL Server 2019
 
-## 화면 목록
+# 화면 목록
 1. 손익 계산서 화면
 <img src="./Document/1.%20%EC%86%90%EC%9D%B5%20%EA%B3%84%EC%82%B0%EC%84%9C%20%ED%99%94%EB%A9%B4.jpg" width="80%">
 
@@ -76,13 +79,13 @@ Microsoft MS-SQL Server 2019
 
 - 년, 월 기간동안 판매된 제품 중 상위 5개 제품의 판매량을 Doughnut 차트로 출력한다.
 
-## DB 스키마
+# DB 스키마
 <img src="./Document/DB 스키마.jpg" width="80%">
 
 - 모든 항목이 제 3 정규화까지 완료되었다.
 
 
-## 클래스 다이어그램
+# 클래스 다이어그램
 Dao Classes
 
 <img src="./Document/Model Classes.jpg" width="80%">
