@@ -79,10 +79,15 @@ Microsoft MS-SQL Server 2019
 ## DB 스키마
 <img src="../Document/DB 스키마.jpg" width="80%">
 
+- 모든 항목이 제 3 정규화까지 완료되었다.
+
 
 ## 클래스 다이어그램
+Dao Classes
 
-<img src="../Document/클래스 다이어그램.jpg" width="80%">
+<img src="../Document/Model Classes.jpg" width="80%">
 
 
-- 모든 항목이 제 3 정규화까지 완료되었다.
+Form Classes
+
+<img src="../Document/Form Classes.jpg" width="80%">
